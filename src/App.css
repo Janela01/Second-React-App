@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 6vw;
+  font-size: x-large;
+  background-color: #21222A;
+  height: 20vh;
+  min-height: 40px;
+}
+.nav div{
+  display: flex;
+}
+.div1{
+  color:#42e6fc;
+  align-items: center;
+}
+.div2{
+  color:white;
+  align-items: baseline;
+}
+.reactLogo{
+  height: 14vh;
+  min-height: 35px;
+}
+.main{
+  padding: 7vh 5vw;
+  height: 66vh;
+  background-color: #282D35;
+  color: white;
+  background-image: url('./images/logo.png');
+  background-repeat: no-repeat;
+  background-position: right 70%;
+  background-size: 40vh;
+}
+.main h1{
+  letter-spacing: -0.05em;
+  font-size: 2.5em;
+}
+.main ul{
+  padding-left: 3vw;
+  padding-top: 3vh;
+}
+
+.main ul li{
+  padding:1vh 0;
+}
+.main ul li::marker{
+  font-size:1.4rem;
+  color:#42e6fc;
+}
